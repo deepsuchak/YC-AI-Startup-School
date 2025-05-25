@@ -1,98 +1,172 @@
-# YC AI Startup School Simulation 🚀
+# 🚀 YC AI Startup School Simulation
 
-Waitlisted from YC AI Startup School, we decided to take matters into our own hands—building a virtual simulation where anyone can learn, network, and engage with leading minds in AI through an interactive and immersive experience.
+**Waitlisted by YC AI Startup School?** So were we.  
+Instead of waiting, we built our own interactive simulation—a virtual YC experience where *anyone* can explore, learn from AI leaders, and build community in a gamified environment.
 
-## 🎯 Purpose
+---
 
-We got waitlisted for YC AI Startup School, so we decided to build our own simulation! This project lets you:
-- Network with AI tech leaders in a virtual environment
-- Learn from industry experts through interactive conversations
-- Experience YC's environment in a gamified way
-- Engage in meaningful discussions about AI, startups, and technology
+## 🌟 Why We Built It
 
-## ✨ Credits/Inspiration
+> We applied to YC AI Startup School and got waitlisted.  
+> So we thought: why not simulate the experience ourselves?
 
-This project draws inspiration from amazing AI education platforms:
-- [Decoding ML](https://decodingml.substack.com) - For their innovative approach to AI education
-- [The Neural Maze](https://theneuralmaze.substack.com) - For their creative way of teaching ML concepts
+This project is our way of recreating the magic of YC in a community-led, open-source way—where anyone can plug in, play, and grow.
 
+---
+## 🎯 What This Is
 
-## 🏗️ Architecture
+A virtual world where you can:
+- 🧠 Learn AI from top thinkers
+- 🤝 Network in real time
+- 🎮 Explore YC’s startup ecosystem—game-style
+- 🗣️ Interact with 10+ iconic AI leaders via simulated conversations
 
-![Architecture_diagram](https://github.com/user-attachments/assets/014822aa-4cd2-4d87-8b36-b651039d9ec0)
+---
 
+## 🧠 Inspiration
 
-## ⛏️Tech Stack
-- **Agent Orchestration**: Langraph
-- **Memory**: MongoDB
-- **Agent Evaluation**: Opik
-- **Inference**: Groq
-- **API Serving**: FastAPI
-- **Production Readiness**: Docker
-- **UI**: Phaser (a JS framework)
+We owe creative thanks to:
+- [**Decoding ML**](https://decodingml.substack.com): for their hands-on AI learning approach  
+- [**The Neural Maze**](https://theneuralmaze.substack.com): for reimagining how ML can be taught
 
-## 🎮 Key Features
+---
 
-- **Interactive Environment**: Explore a virtual YC campus
-- **AI Tech Leaders**: Chat with 10+ prominent figures in AI
-- **Real-time Conversations**: Engage in meaningful discussions
-- **Custom Characters**: Add your own avatar to the simulation
-- **Dynamic Movement**: Smooth character controls and interactions
+## 🎮 Gameplay Overview
 
-## 🚀 Getting Started
+| Feature | Description |
+|--------|-------------|
+| **Interactive Campus** | Navigate a YC-like map built in Phaser |
+| **Meet AI Legends** | Chat with avatars of Sam Altman, Fei-Fei Li, Karpathy & more |
+| **Custom Characters** | Bring your own avatar into the simulation |
+| **Smooth Controls** | Arrow keys to move, spacebar to chat, ESC to pause |
 
-1. **Clone the Repository**
+---
+
+## 🛠️ Tech Stack
+
+| Category | Tool |
+|---------|------|
+| **UI Framework** | Phaser.js |
+| **Agent Logic** | Langraph |
+| **Memory Storage** | MongoDB |
+| **Evaluation Engine** | Opik |
+| **Inference** | Groq |
+| **API Framework** | FastAPI |
+| **Deployment** | Docker |
+
+---
+
+## 📐 Architecture
+
+![Architecture Diagram](https://github.com/user-attachments/assets/014822aa-4cd2-4d87-8b36-b651039d9ec0)
+
+---
+
+## ⚙️ Setup Instructions
+
+> **Fastest Way to Get Started**
+
+### 1. Clone the Repository
+
 ```bash
 git clone https://github.com/yourusername/yc-simulation.git
 cd yc-simulation
 ```
 
-2. **Install Dependencies**
+---
+
+### 2. Install Frontend (Game UI)
+
 ```bash
-# Install UI dependencies
 cd philoagents-ui
 npm install
-
-# Install API dependencies
-cd ../philoagents-api
-pip install -r requirements.txt
 ```
-
-3. **Start the Application**
-```bash
-# Start the frontend (in philoagents-ui directory)
-npm run dev
-
-# Start the backend (in philoagents-api directory)
-python -m src.main
-```
-
-4. **Access the Game**
-- Open `http://localhost:8080` in your browser
-- Use arrow keys to move
-- Press SPACE to interact with characters
-- Press ESC to pause/menu
-
-## 🎛️ Controls
-
-- **Arrow Keys**: Move your character
-- **Space**: Interact with AI leaders
-- **ESC**: Open pause menu/close dialogues
-
-
-## 🤝 Contributing
-
-Feel free to fork this project and create your own version of the AI Startup School simulation! Pull requests are welcome.
-
-## 📝 License
-
-MIT License - feel free to use this for your own simulations!
-
-## 🙋‍♂️ Authors
-
-- Deep @WPI
-- Aaditya @Kelley,IU
 
 ---
 
-*This project is not affiliated with Y Combinator. It's a fan-made simulation created for educational and entertainment purposes.*
+### 3. Install Backend (Agent API)
+
+```bash
+cd ../philoagents-course/philoagents-api
+uv venv .venv
+. ./.venv/bin/activate   # or source ./.venv/bin/activate
+uv pip install -e .
+uv run python --version  # should be 3.11.9
+```
+
+---
+
+### 4. Set Up Environment Variables
+
+```bash
+cp .env.example .env
+```
+
+Edit `.env` with your credentials. Refer to [Cloud Services](#-prerequisites) for help.
+
+---
+
+### 5. Launch Docker Infrastructure
+
+Make sure ports `27017`, `8000`, and `8080` are free.
+
+```bash
+cd ../../
+make infrastructure-up      # Start
+make infrastructure-stop    # Stop
+make infrastructure-build   # Build (if needed)
+```
+
+---
+
+### 6. Play the Game
+
+Open [http://localhost:8080](http://localhost:8080)  
+Use the arrow keys to move, spacebar to chat, ESC to pause.
+
+---
+
+## 🎮 Controls
+
+| Action | Key |
+|--------|-----|
+| Move   | ← ↑ ↓ → |
+| Interact | SPACE |
+| Pause/Menu | ESC |
+
+---
+
+## 🧰 Tool Versions
+
+| Tool | Version | Use | Link |
+|------|---------|-----|------|
+| Python | 3.11 | Runtime | [Download](https://www.python.org/downloads/) |
+| `uv` | ≥ 0.4.30 | Virtual env + installer | [uv GitHub](https://github.com/astral-sh/uv) |
+| GNU Make | ≥ 3.81 | Automation | [GNU Make](https://www.gnu.org/software/make/) |
+| Git | ≥ 2.44.0 | Version control | [Git](https://git-scm.com/downloads) |
+| Docker | ≥ 27.4.0 | Containerization | [Docker](https://www.docker.com/get-started/) |
+
+---
+
+## 🤝 Contribute
+
+We’d love to see your remix of this idea!  
+Feel free to fork the repo, submit pull requests, or share feedback.
+
+---
+
+## 👥 Authors
+
+- **Deep** @Worcester Polytechnic Institute, email: dssuchak@wpi.edu  
+- **Aaditya** @Kelley School of Business, Indiana University, email: agadiyar@iu.edu
+
+---
+
+## 📄 License
+
+[MIT License](LICENSE)
+
+---
+
+> 🚫 **Disclaimer**  
+> This is a fan-made project and is not affiliated with Y Combinator.
