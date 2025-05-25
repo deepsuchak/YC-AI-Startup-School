@@ -10,9 +10,17 @@ We got waitlisted for YC AI Startup School, so we decided to build our own simul
 - Experience YC's environment in a gamified way
 - Engage in meaningful discussions about AI, startups, and technology
 
+## ✨ Credits/Inspiration
+
+This project draws inspiration from amazing AI education platforms:
+- [Decoding ML](https://decodingml.substack.com) - For their innovative approach to AI education
+- [The Neural Maze](https://theneuralmaze.substack.com) - For their creative way of teaching ML concepts
+
+
 ## 🏗️ Architecture
 
-(// paste diagram)
+![Architecture_diagram](https://github.com/user-attachments/assets/014822aa-4cd2-4d87-8b36-b651039d9ec0)
+
 
 ## ⛏️Tech Stack
 - **Agent Orchestration**: Langraph
@@ -70,11 +78,6 @@ python -m src.main
 - **Space**: Interact with AI leaders
 - **ESC**: Open pause menu/close dialogues
 
-## ✨ Inspiration
-
-This project draws inspiration from amazing AI education platforms:
-- [Decoding ML](https://decodingml.substack.com) - For their innovative approach to AI education
-- [The Neural Maze](https://theneuralmaze.substack.com) - For their creative way of teaching ML concepts
 
 ## 🤝 Contributing
 
