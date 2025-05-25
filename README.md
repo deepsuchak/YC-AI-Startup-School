@@ -24,6 +24,7 @@ This project draws inspiration from amazing AI education platforms:
 
 ## ⛏️Tech Stack
 - **Agent Orchestration**: Langraph
+- **Memory**: MongoDB
 - **Agent Evaluation**: Opik
 - **Inference**: Groq
 - **API Serving**: FastAPI
