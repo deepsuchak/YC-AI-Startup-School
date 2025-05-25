@@ -23,14 +23,6 @@ A virtual world where you can:
 
 ---
 
-## 🧠 Inspiration
-
-We owe creative thanks to:
-- [**Decoding ML**](https://decodingml.substack.com): for their hands-on AI learning approach  
-- [**The Neural Maze**](https://theneuralmaze.substack.com): for reimagining how ML can be taught
-
----
-
 ## 🎮 Gameplay Overview
 
 | Feature | Description |
@@ -39,6 +31,21 @@ We owe creative thanks to:
 | **Meet AI Legends** | Chat with avatars of Sam Altman, Fei-Fei Li, Karpathy & more |
 | **Custom Characters** | Bring your own avatar into the simulation |
 | **Smooth Controls** | Arrow keys to move, spacebar to chat, ESC to pause |
+
+
+---
+
+
+## 📐 Architecture
+
+![Architecture Diagram](https://github.com/user-attachments/assets/014822aa-4cd2-4d87-8b36-b651039d9ec0)
+
+---
+## 🧠 Inspiration
+
+We owe creative thanks to:
+- [**Decoding ML**](https://decodingml.substack.com): for their hands-on AI learning approach  
+- [**The Neural Maze**](https://theneuralmaze.substack.com): for reimagining how ML can be taught
 
 ---
 
@@ -53,12 +60,6 @@ We owe creative thanks to:
 | **Inference** | Groq |
 | **API Framework** | FastAPI |
 | **Deployment** | Docker |
-
----
-
-## 📐 Architecture
-
-![Architecture Diagram](https://github.com/user-attachments/assets/014822aa-4cd2-4d87-8b36-b651039d9ec0)
 
 ---
 
