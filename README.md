@@ -12,19 +12,7 @@ We got waitlisted for YC AI Startup School, so we decided to build our own simul
 
 ## 🏗️ Architecture
 
-### Frontend (Phaser.js Game)
-- **Main Game Scene**: Interactive environment with AI tech leaders
-- **Characters**: 
-  - AI Leaders (Elon Musk, Sam Altman, François Chollet, Andrej Karpathy and the entire speaker lineup of the event)
-  - Student Characters (Deep and Aaditya)
-- **Dialogue System**: Real-time conversations with AI personalities
-- **Movement System**: Pokemon-style navigation and character interactions
-
-### Backend (AI Conversation Engine)
-- Powered by LLM Agents
-- Real-time dialogue processing
-- Character-specific knowledge and personalities
-- WebSocket integration for smooth conversations
+(// paste diagram)
 
 ## ⛏️Tech Stack
 - **Agent Orchestration**: Langraph
