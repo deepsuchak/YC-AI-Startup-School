@@ -1,6 +1,6 @@
-# 🚀 YC AI Startup School Simulation
+# 🚀 [YC AI Startup School](https://events.ycombinator.com/ai-sus) Simulation
 
-**Waitlisted by YC AI Startup School?** So were we.  
+**Waitlisted by [YC AI Startup School]((https://events.ycombinator.com/ai-sus))?** So were we.  
 Instead of waiting, we built our own interactive simulation—a virtual YC experience where *anyone* can explore, learn from AI leaders, and build community in a gamified environment.
 
 ---
@@ -16,7 +16,7 @@ This project is our way of recreating the magic of YC in a community-led, open-s
 ## 🎯 What This Is
 
 A virtual world where you can:
-- 🧠 Learn AI from top thinkers
+- 🧠 Learn AI from YC Startup School's [guest speakers](https://events.ycombinator.com/ai-sus)
 - 🤝 Network in real time
 - 🎮 Explore YC’s startup ecosystem—game-style
 - 🗣️ Interact with 10+ iconic AI leaders via simulated conversations
