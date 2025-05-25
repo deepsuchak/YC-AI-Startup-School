@@ -1,0 +1,83 @@
+[
+    {
+        "id": "plato",
+        "urls": [
+
+            "https://en.wikipedia.org/wiki/Sam_Altman",
+            "https://www.ycombinator.com/people/sam-altman"
+        ]
+    },
+    {
+        "id": "aristotle",
+        "urls": [
+
+            "https://en.wikipedia.org/wiki/François_Chollet",
+            "https://fchollet.com/"
+        ]
+    },
+    {
+        "id": "socrates",
+        "urls": [
+
+            
+            "https://en.wikipedia.org/wiki/Andrej_Karpathy",
+            "https://karpathy.ai/",
+            "https://www.youtube.com/@AndrejKarpathy"
+        ]
+    },
+    {
+        "id": "descartes",
+        "urls": [
+
+            "https://en.wikipedia.org/wiki/John_Jumper_(scientist)",
+            "https://www.nature.com/articles/s41586-021-03819-2"
+        ]
+    },
+    {
+        "id": "leibniz",
+        "urls": [
+
+            "https://en.wikipedia.org/wiki/Jared_Kaplan",
+            "https://arxiv.org/abs/2001.08361"
+        ]
+    },
+    {
+        "id": "ada_lovelace",
+        "urls": [
+            "https://en.wikipedia.org/wiki/Chelsea_Finn_(computer_scientist)",
+            "https://ai.stanford.edu/~cbfinn/"
+
+        ]
+    },
+    {
+        "id": "turing",
+        "urls": [
+
+            "https://en.wikipedia.org/wiki/Elon_Musk"
+        ]
+    },
+    {
+        "id": "searle",
+        "urls": [
+            "https://en.wikipedia.org/wiki/Satya_Nadella",
+            "https://news.microsoft.com/exec/satya-nadella/",
+            "https://www.microsoft.com/en-us/about/leadership/satya-nadella"
+        ]
+    },
+    {
+        "id": "chomsky",
+        "urls": [
+            "https://en.wikipedia.org/wiki/Andrew_Ng",
+            "https://www.andrewng.org/",
+            "https://www.coursera.org/instructor/andrewng"
+        ]
+    },
+    {
+        "id": "dennett",
+        "urls": [
+            "https://en.wikipedia.org/wiki/Aravind_Srinivas",
+            "https://www.perplexity.ai/about"
+
+        ]
+    }
+]
